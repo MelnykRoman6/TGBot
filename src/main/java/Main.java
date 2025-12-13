@@ -1,8 +1,8 @@
 import org.telegram.telegrambots.longpolling.TelegramBotsLongPollingApplication;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
-public class main {
-    public static void Main(String[] args) throws TelegramApiException {
+public class Main {
+    public static void main(String[] args) throws TelegramApiException {
         TelegramBotsLongPollingApplication botsApplication = new TelegramBotsLongPollingApplication();
 
         // Register our bot
